@@ -1,5 +1,5 @@
 # flasklate
-A Bootstrap Template To Start Flask Projects
+A code template to Start Flask projects
 
 
 ## Without Docker
