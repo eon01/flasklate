@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import logging, traceback, ConfigParser, os
+import logging, traceback, configparser, os
 from flask import Flask
 app = Flask(__name__)
 
 
 # start configuration parser
-parser = ConfigParser.ConfigParser()
+parser = configparser.ConfigParser()
 parser.read("app.conf")
 
 # reading variables

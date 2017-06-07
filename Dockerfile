@@ -1,7 +1,7 @@
 FROM python:3.4
-ADD requirements.txt /app
+WORKDIR /app
+ADD requirements.txt .
 RUN pip install -r requirements.txt
-ADD app.conf /app
-ADD . /app
-WORKDIR /
+ADD app.conf .
+ADD . .
 ENTRYPOINT python app.py
