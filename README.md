@@ -18,4 +18,8 @@ flask run
 
 ## With Docker
 
+```
+docker build -t my_app . 
+docker run -it --name my_app -p 80:5000 my_app
+```
 
